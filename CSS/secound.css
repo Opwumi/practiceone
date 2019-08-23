@@ -1,0 +1,149 @@
+* {  margin: 0;
+    padding: 0;
+}
+
+.bodygrid{
+     display: grid;
+     grid-template-columns: 100%;
+     grid-template-rows: 20px 90px 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-areas:  "linea"
+    "navbar"
+     "first"
+     "secound"
+     "third"
+     "forth"
+     "footer"
+     "enda" ;
+
+}
+
+.linea{
+    grid-area: linea;
+    background-color: rgb(61, 2, 61);
+    color: white;
+    text-align: end;
+}
+
+
+.navbar{
+    grid-area: navbar;
+    background-color: whitesmoke;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+.title{
+    width: 30%;
+    text-align: center;
+}
+ .menua{ width: 70%;
+text-align: end;
+
+ } 
+     .menua ul a{
+        padding: 14px 16px;
+         color: black; 
+         text-decoration: none;
+     }
+
+ 
+ .navbar div{
+     float: left;
+ }
+.menua ul a:Hover{
+    border-bottom: solid;
+    border-bottom-color: grey;
+    background-color: whitesmoke;
+}
+    
+.first{
+    grid-area: first;
+    background-color:rgb(196, 193, 193);
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+  .tv{
+      width: 50%;
+  }
+  .catchy{
+      width: 50%;
+      
+  }
+
+.secound{
+    grid-area: secound;
+    background-color: white;
+    
+}
+  .secimg{
+      width: 25%;
+      display: block;
+      text-align: center;
+      
+  }
+  .secound .secimg img{
+      width: 100px;
+      height: 100px;
+  }
+
+.third{
+    grid-area: third;
+    background-color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.forth{
+    grid-area: forth;
+    background-color: white;
+}
+.fotimg{
+    width: 25%;
+    display: block;
+    text-align: center;
+}
+    .forth .fotimg img{
+     width: 200px;
+     height: 100px;
+     
+    }
+
+.footer{
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+.foot{
+    width: 25%;
+    
+    
+}
+.foot li a{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+#textarea{
+    background-color:  rgb(14, 12, 12);
+    text-align: start;
+    color: silver;
+
+}
+
+
+.enda{
+    grid-area: enda;
+    background-color: rgb(14, 12, 12);
+    color: white;
+    width: 100%;
+}
+#smallend{
+    margin-left: 75%;
+}
