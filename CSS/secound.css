@@ -118,6 +118,10 @@ text-align: end;
     width: 100%;
     padding-top: 10px;
 }
+
+.footer div{
+    float: left;
+}
 .foot{
     width: 25%;
     
